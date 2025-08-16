@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livro de Colorir Infantil – Histórias da Bíblia</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600&display=swap');
+
+        body {
+            margin: 0;
+            font-family: 'Baloo 2', cursive;
+            background-color: #fff4f9;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #ff99c8, #ff66a3);
+            text-align: center;
+            padding: 20px;
+            border-bottom: 5px solid #ff66a3;
+        }
+
+        header h1 {
+            color: white;
+            margin: 0;
+            font-size: 2em;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+
+        .produto {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .produto img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 15px;
+            object-fit: cover;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+        }
+
+        .info {
+            flex: 1;
+        }
+
+        .preco {
+            font-size: 2em;
+            color: #ff3366;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+
+        .comprar {
+            display: inline-block;
+            background-color: #ff66a3;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border-radius: 25px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+
+        .comprar:hover {
+            background-color: #ff3380;
+        }
+
+        h2 {
+            color: #ff3366;
+            margin-top: 0;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul li::before {
+            content: "✔ ";
+            color: #33cc33;
+        }
+
+        footer {
+            background-color: #ff99c8;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+            color: white;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Livro de Colorir Infantil – Histórias da Bíblia</h1>
+</header>
+
+<div class="container">
+
+    <!-- Card do Produto -->
+    <div class="card">
+        <div class="produto">
+            <img src="capa.png" alt="Capa do Livro de Colorir Infantil">
+            <div class="info">
+                <p>Ensine a Palavra de Deus de forma divertida e criativa! Este livro de colorir infantil com histórias da Bíblia traz ilustrações exclusivas em preto e branco no estilo infantil, prontas para as crianças pintarem e aprenderem.</p>
+                <p class="preco">R$ 24,90</p>
+                <a href="https://pay.kiwify.com.br/b2IUMTa" class="comprar">Comprar Agora</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card Histórias Incluídas -->
+    <div class="card">
+        <h2>Histórias Incluídas</h2>
+        <ul>
+            <li>A Criação do Mundo</li>
+            <li>Adão e Eva no Jardim do Éden</li>
+            <li>Noé e a Grande Arca</li>
+            <li>Abraão e a Grande Família</li>
+            <li>José, o Sonhador</li>
+            <li>Moisés e o Resgate do Povo</li>
+            <li>Os Dez Mandamentos</li>
+            <li>Davi, o Pequeno Pastor Valente</li>
+            <li>Jonas e o Grande Peixe</li>
+            <li>Jesus, o Bom Pastor</li>
+        </ul>
+    </div>
+
+    <!-- Card Diferenciais -->
+    <div class="card">
+        <h2>Diferenciais do Produto</h2>
+        <ul>
+            <li>Ilustrações originais e exclusivas</li>
+            <li>Linguagem visual adaptada para crianças</li>
+            <li>Perfeito para evangelização infantil</li>
+            <li>Estimula criatividade e aprendizado bíblico</li>
+        </ul>
+        <p><strong>📖 Transforme o momento de pintar em uma oportunidade de aprendizado e fé!</strong></p>
+    </div>
+
+</div>
+
+<footer>
+    &copy; 2025 Livro de Colorir Infantil – Todos os direitos reservados.
+</footer>
+
+</body>
+</html>
